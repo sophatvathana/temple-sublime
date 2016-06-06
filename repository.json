@@ -1,0 +1,10 @@
+{
+	"name": "Temple",
+	"details": "https://github.com/sophatvathana/temple-sublime.git",
+	"releases": [
+		{
+			"sublime_text": "*",
+			"tags": true
+		}
+	]
+}
