@@ -1,3 +1,4 @@
+<!--/ thank to HTML5 sublime -->
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -29,7 +30,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>Riot Tag</string>
+	<string>Temple</string>
 	<key>patterns</key>
 	<array>
 		<dict>
