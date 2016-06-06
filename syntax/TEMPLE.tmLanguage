@@ -1,4 +1,30 @@
-<!--/ thank to HTML5 sublime -->
+<!--/ 
+	thank to HTML5 sublime
+	modified by Sovathana Phat<sovathana.phat@gmail.com>
+
+The MIT License (MIT)
+
+Copyright (c) 2016 Sophat Vathana
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+/-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -41,12 +67,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.html</string>
+					<string>entity.name.temple.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -56,36 +82,36 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html meta.scope.between-tag-pair.html</string>
+					<string>punctuation.definition.temple.begin.html meta.scope.between-temple-pair.html</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.html</string>
+					<string>entity.name.temple.html</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.any.html</string>
+			<string>meta.temple.any.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 			</array>
 		</dict>
@@ -97,23 +123,23 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.temple.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.xml.html</string>
+					<string>entity.name.temple.xml.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\?&gt;)</string>
 			<key>name</key>
-			<string>meta.tag.preprocessor.xml.html</string>
+			<string>meta.temple.preprocessor.xml.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-generic-attribute</string>
+					<string>#temple-generic-attribute</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -162,13 +188,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.temple.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>&gt;</string>
 			<key>name</key>
-			<string>meta.tag.sgml.html</string>
+			<string>meta.temple.sgml.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -179,13 +205,13 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.tag.doctype.html</string>
+							<string>entity.name.temple.doctype.html</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=&gt;)</string>
 					<key>name</key>
-					<string>meta.tag.sgml.doctype.html</string>
+					<string>meta.temple.sgml.doctype.html</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -224,17 +250,17 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.style.html</string>
+					<string>entity.name.temple.style.html</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.temple.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -245,7 +271,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -255,7 +281,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.end.html</string>
+							<string>punctuation.definition.temple.end.html</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -282,12 +308,12 @@
             <key>1</key>
             <dict>
                <key>name</key>
-               <string>punctuation.definition.tag.html</string>
+               <string>punctuation.definition.temple.html</string>
             </dict>
             <key>2</key>
             <dict>
                <key>name</key>
-               <string>entity.name.tag.script.html</string>
+               <string>entity.name.temple.script.html</string>
             </dict>
          </dict>
          <key>end</key>
@@ -297,7 +323,7 @@
             <key>2</key>
             <dict>
                <key>name</key>
-               <string>punctuation.definition.tag.html</string>
+               <string>punctuation.definition.temple.html</string>
             </dict>
          </dict>
          <key>name</key>
@@ -306,7 +332,7 @@
          <array>
             <dict>
                <key>include</key>
-               <string>#tag-stuff</string>
+               <string>#temple-stuff</string>
             </dict>
             <dict>
                <key>begin</key>
@@ -316,12 +342,12 @@
                   <key>1</key>
                   <dict>
                      <key>name</key>
-                     <string>punctuation.definition.tag.html</string>
+                     <string>punctuation.definition.temple.html</string>
                   </dict>
                   <key>2</key>
                   <dict>
                      <key>name</key>
-                     <string>entity.name.tag.script.html</string>
+                     <string>entity.name.temple.script.html</string>
                   </dict>
                </dict>
                <key>end</key>
@@ -344,12 +370,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.script.html</string>
+					<string>entity.name.temple.script.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -359,7 +385,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.temple.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
@@ -368,7 +394,7 @@
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 				<dict>
 					<key>begin</key>
@@ -378,12 +404,12 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.begin.html</string>
+							<string>punctuation.definition.temple.begin.html</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.tag.script.html</string>
+							<string>entity.name.temple.script.html</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -440,12 +466,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.structure.any.html</string>
+					<string>entity.name.temple.structure.any.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -455,16 +481,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.structure.any.html</string>
+			<string>meta.temple.structure.any.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 			</array>
 		</dict>
@@ -476,12 +502,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.block.any.html</string>
+					<string>entity.name.temple.block.any.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -491,16 +517,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.block.any.html</string>
+			<string>meta.temple.block.any.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 			</array>
 		</dict>
@@ -512,12 +538,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.inline.any.html</string>
+					<string>entity.name.temple.inline.any.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -527,16 +553,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.inline.any.html</string>
+			<string>meta.temple.inline.any.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 			</array>
 		</dict>
@@ -548,12 +574,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.temple.begin.html</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.other.html</string>
+					<string>entity.name.temple.other.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -563,16 +589,16 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.temple.end.html</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.other.html</string>
+			<string>meta.temple.other.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-stuff</string>
+					<string>#temple-stuff</string>
 				</dict>
 			</array>
 		</dict>
@@ -892,14 +918,14 @@
 				</dict>
 			</array>
 		</dict>
-		<key>tag-generic-attribute</key>
+		<key>temple-generic-attribute</key>
 		<dict>
 			<key>match</key>
 			<string>\b([a-zA-Z\-:]+)</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.html</string>
 		</dict>
-		<key>tag-id-attribute</key>
+		<key>temple-id-attribute</key>
 		<dict>
 			<key>begin</key>
 			<string>\b(id)\b\s*(=)</string>
@@ -998,17 +1024,17 @@
 				</dict>
 			</array>
 		</dict>
-		<key>tag-stuff</key>
+		<key>temple-stuff</key>
 		<dict>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>include</key>
-					<string>#tag-id-attribute</string>
+					<string>#temple-id-attribute</string>
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#tag-generic-attribute</string>
+					<string>#temple-generic-attribute</string>
 				</dict>
 				<dict>
 					<key>include</key>
